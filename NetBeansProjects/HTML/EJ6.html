@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Datos del usuario</h1>
+    <h3>Complete el formulario con sus datos</h3>
+    <form action="ruta a donde va a ir a parar la información" method="POST" enctype="multipart/form-data">
+        <label> Nombre del usuario</label>
+        <br>
+        <input type="text"name="Nombre">
+        <br>
+        <label> Edad del usuario</label>
+        <br>
+        <input type="number" name="Edad">
+        <br>
+        <label> Fecha de nacimiento</label>
+        <br>
+        <input type="date" name="date" value="0">
+        <br>
+        <label> Sexo </label>
+        <br>
+        <input type="radio" id ="Hombre" name="sexo" value="1">
+        <label for="Hombre">Hombre</label>
+        <br>
+        <input type="radio" id ="Mujer" name="sexo" value="1">
+        <label for="Mujer">Mujer</label>
+        <BR>
+        <label>País de nacimiento</label>
+        <BR></BR>
+        <select name="pais">
+        <option>Argentina</option>
+        <option>Chile</option>
+        <option>Brasil</option>
+        <option>Ururguay</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+
+
+    
+    </form>
+    
+</body>
+</html>
